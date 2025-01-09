@@ -17,7 +17,11 @@ const { title, description } = Astro.props
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body>
+  <body class="relative overflow-x-hidden">
+    <div
+      class="absolute top-0 bottom-0 z-[-2] min-h-screen w-full bg-[radial-gradient(#dddddd_1px,#ffffff_1px)] bg-[size:20px_20px] dark:bg-gray-950 dark:bg-[radial-gradient(#ffffff33_1px,#00091d_1px)]"
+    >
+    </div>
     <slot />
   </body>
 </html>
