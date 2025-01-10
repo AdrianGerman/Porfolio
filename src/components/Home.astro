@@ -1,5 +1,7 @@
 ---
-
+import Github from "./icons/Github.astro"
+import Linkedin from "./icons/Linkedin.astro"
+import CV from "./icons/CV.astro"
 ---
 
 <section class="flex gap-12 flex-col sm:flex-row px-8">
@@ -10,7 +12,7 @@
       class="w-60 h-60 rounded-xl z-10 absolute"
     />
     <div
-      class="relative w-60 h-60 border border-red-300 rounded-xl bottom-3 right-3 z-0"
+      class="relative w-60 h-60 border border-purple-900 rounded-xl bottom-3 right-3 z-0"
     >
     </div>
   </div>
@@ -20,9 +22,27 @@
       <h1 class="text-4xl">Adrian Germán. <br /> Desarrollador full stack</h1>
     </span>
     <div class="flex gap-2">
-      <p>LinkedIn</p>
-      <p>GitHub</p>
-      <p>CV</p>
+      <a
+        href="https://github.com/AdrianGerman"
+        target="_blank"
+        class="fill-white transform transition duration-300 hover:fill-purple-200 hover:scale-105 cursor-pointer"
+      >
+        <Github />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/adrian-german/"
+        target="_blank"
+        class="fill-white transform transition duration-300 hover:fill-purple-200 hover:scale-105 cursor-pointer"
+      >
+        <Linkedin />
+      </a>
+      <a
+        href="/assets/German_Becerra_CV.pdf"
+        target="_blank"
+        class="fill-white transform transition duration-300 hover:fill-purple-200 hover:scale-105 cursor-pointer"
+      >
+        <CV />
+      </a>
     </div>
   </div>
 </section>
