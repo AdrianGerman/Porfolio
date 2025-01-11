@@ -1,42 +1,46 @@
-const PROJECTS = [
+export default [
   {
     title: "Born - ElMariana Shop",
-    description: "",
-    image: "",
+    description:
+      "Página web para la venta de mercancía exclusiva por tiempo limitado de un creador de contenido mexicano.",
+    image: "/projects/mariana-shop.webp",
     link: "#",
     github: "https://github.com/AdrianGerman/elmariana-shop.git",
     tags: []
   },
   {
     title: "Heim Components",
-    description: "",
-    image: "",
-    link: "",
-    github: "",
+    description: "Catálogo de componentes para utilizarlos en tus páginas web.",
+    image: "/projects/heim-components.webp",
+    link: "#",
+    github: "https://github.com/AdrianGerman/heim-components",
     tags: []
   },
   {
     title: "Proyectos JS",
-    description: "",
-    image: "",
+    description:
+      "Página de proyectos elaborados únicamente con JavaScript, sin librerías ni dependencias.",
+    image: "/projects/projects-js.webp",
     link: "",
-    github: "",
+    github: "https://github.com/AdrianGerman/proyectos-js",
     tags: []
   },
   {
     title: "Frontend projects roadmap",
-    description: "",
-    image: "",
+    description:
+      "Roadmap de proyectos front-end, con un total de 24 proyectos, en esta web presenta la línea de proyectos que se elaboraron.",
+    image: "/projects/frontend-roadmap.webp",
     link: "",
-    github: "",
+    github: "https://github.com/AdrianGerman/frontend-projects-roadmap",
     tags: []
   },
   {
     title: "Selling books school",
-    description: "",
-    image: "",
+    description:
+      "Proyecto personalizado realizado para una institución educativa en la cual realice mi servicio social, venta e inventario de libros escolares.",
+    image: "/projects/selling-books.webp",
     link: "",
-    github: "",
+    github: "https://github.com/AdrianGerman/selling-books-school",
     tags: []
   }
 ]
