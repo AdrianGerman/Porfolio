@@ -1,0 +1,51 @@
+---
+import ExperienceTitle from "./icons/ExperienceTitle.astro"
+
+const EXPERIENCE = [
+  {
+    title: "Desarrollador freelancer",
+    company: "Freelancer",
+    duration: "Actualmente",
+    description:
+      "Desarrollo de aplicaciones web con los requisitos que el cliente solicite, brindando asesoría sobre las mejores practicas y muestras de avances constantes para la evaluación del proceso de desarrollo."
+  },
+  {
+    title: "Desarrollador freelancer",
+    company: "Freelancer",
+    duration: "6 meses",
+    description:
+      "Desarrollo de una web en el área de venta de libros educativos de una escuela preparatoria. Se analizo la manera en que realizaban las ventas y la gestión de inventarios para desarrollar una web adaptada a su manera de trabajo para automatizar dicha área."
+  },
+  {
+    title: "Desarrollador FullStack - becario",
+    company: "Universidad de Guadalajara",
+    duration: "1 año",
+    description:
+      "Desarrollo de aplicaciones y sitios web personalizados, adaptándonos a las requisitos específicos de cada área. Teniendo en cuenta tanto las preferencias del cliente como las mejores prácticas para mejorar la experiencia de usuario."
+  }
+]
+---
+
+<section id="experience" class="mt-60 mb-60">
+  <div class="container mx-auto">
+    <h2 class="text-4xl font-bold mb-6 flex gap-4 items-center underline">
+      <ExperienceTitle class="w-10 h-10" />
+      Experiencia laboral
+    </h2>
+    <div class="space-y-8">
+      {
+        EXPERIENCE.map((job) => (
+          <div class="bg-slate-950/60 border border-slate-900 p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold">{job.title}</h3>
+            <p class="text-sm text-gray-500">
+              {job.company} | {job.duration}
+            </p>
+            <ul class="mt-4 list-disc list-inside text-gray-100 space-y-2">
+              {job.description}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
