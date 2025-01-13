@@ -1,4 +1,5 @@
 ---
+import Experience from "../components/Experience.astro"
 import Home from "../components/Home.astro"
 import Projects from "../components/Projects.astro"
 import Layout from "../layouts/Layout.astro"
@@ -8,6 +9,9 @@ import Layout from "../layouts/Layout.astro"
   title="Porfolio"
   description="Esta es mi porfolio profesional en el cual despues de un año de aprendizaje autodidacta, demuestro todos mis conocimientos"
 >
-  <Home />
-  <Projects />
+  <main class="px-20 lg:w-3/5 w-full">
+    <Home />
+    <Projects />
+    <Experience />
+  </main>
 </Layout>
