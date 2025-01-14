@@ -85,5 +85,20 @@ const technologies = [
         </p>
       </div>
     </div>
+    <div>
+      <span class="text-4xl font-bold">Tecnologías</span>
+      <div class="bg-slate-950/20 border border-slate-700 rounded-lg mt-6">
+        <div class="grid grid-cols-4 grid-rows-3 py-5 px-3 gap-4">
+          {
+            technologies.map((tech) => (
+              <div class="flex flex-col justify-center items-center">
+                <img class="w-14" src={tech.icon} alt={tech.name} />
+                <p>{tech.name}</p>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
   </div>
 </section>
