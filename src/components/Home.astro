@@ -5,23 +5,23 @@ import CV from "./icons/CV.astro"
 ---
 
 <section
-  class="flex h-dvh justify-center items-center gap-12 flex-col sm:flex-row px-8"
+  class="flex h-[1000px] justify-center items-center gap-12 flex-col md:flex-row px-8"
 >
   <div>
     <img
       src="https://raw.githubusercontent.com/AdrianGerman/Portfolio/refs/heads/main/img/me-purple.png"
       alt="mi foto de perfil"
-      class="w-60 h-60 rounded-xl z-10 absolute"
+      class="w-64 h-64 rounded-xl z-10 absolute"
     />
     <div
-      class="relative w-60 h-60 border-2 border-purple-900 rounded-xl bottom-3 right-3 z-0"
+      class="relative w-64 h-64 border-2 border-purple-900 rounded-xl bottom-3 right-3 z-0"
     >
     </div>
   </div>
   <div class="flex flex-col justify-center gap-6">
     <span>
-      <p>Hola, mi nombre es</p>
-      <h1 class="text-4xl font-bold">
+      <p class="text-purple-700 font-bold text-lg">Hola, mi nombre es</p>
+      <h1 class="text-5xl font-bold">
         Adrian Germán. <br /> Desarrollador full stack
       </h1>
     </span>
@@ -29,6 +29,7 @@ import CV from "./icons/CV.astro"
       <a
         href="https://github.com/AdrianGerman"
         target="_blank"
+        title="GitHub"
         class="fill-white transform transition duration-300 hover:fill-purple-200 hover:scale-105 cursor-pointer"
       >
         <Github />
@@ -36,6 +37,7 @@ import CV from "./icons/CV.astro"
       <a
         href="https://www.linkedin.com/in/adrian-german/"
         target="_blank"
+        title="Linkedin"
         class="fill-white transform transition duration-300 hover:fill-purple-200 hover:scale-105 cursor-pointer"
       >
         <Linkedin />
@@ -43,6 +45,7 @@ import CV from "./icons/CV.astro"
       <a
         href="/assets/German_Becerra_CV.pdf"
         target="_blank"
+        title="CV"
         class="fill-white transform transition duration-300 hover:fill-purple-200 hover:scale-105 cursor-pointer"
       >
         <CV />
