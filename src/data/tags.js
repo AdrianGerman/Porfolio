@@ -13,17 +13,17 @@ export const TAGS = {
   },
   HTML: {
     name: "HTML",
-    class: "bg-orange-600",
+    class: "bg-orange-500",
     icon: HtmlTag
   },
   CSS: {
     name: "CSS",
-    class: "bg-blue-500",
+    class: "bg-blue-600",
     icon: CssTag
   },
   JS: {
     name: "JavaScript",
-    class: "bg-yellow-400",
+    class: "bg-yellow-600",
     icon: JsTag
   },
   TAILWIND: {
