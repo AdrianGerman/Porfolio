@@ -14,7 +14,7 @@ export const EXPERIENCE = [
       "Desarrollo de una web en el área de venta de libros educativos de una escuela preparatoria. Se analizo la manera en que realizaban las ventas y la gestión de inventarios para desarrollar una web adaptada a su manera de trabajo para automatizar dicha área."
   },
   {
-    title: "Desarrollador FullStack - becario",
+    title: "Desarrollador FullStack - Becario",
     company: "Universidad de Guadalajara",
     duration: "1 año",
     description:
