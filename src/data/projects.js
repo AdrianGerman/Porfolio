@@ -6,7 +6,7 @@ export default [
     description:
       "Página web para la venta de mercancía exclusiva por tiempo limitado de un creador de contenido mexicano.",
     image: "/projects/mariana-shop.webp",
-    link: "#",
+    link: "https://elmariana-shop.vercel.app/",
     github: "https://github.com/AdrianGerman/elmariana-shop.git",
     tags: [TAGS.REACT, TAGS.CSS]
   },
@@ -14,7 +14,7 @@ export default [
     title: "Heim Components",
     description: "Catálogo de componentes para utilizarlos en tus páginas web.",
     image: "/projects/heim-components.webp",
-    link: "#",
+    link: "https://heim-components.vercel.app/",
     github: "https://github.com/AdrianGerman/heim-components",
     tags: [TAGS.HTML, TAGS.CSS, TAGS.JS]
   },
@@ -23,7 +23,7 @@ export default [
     description:
       "Página de proyectos elaborados únicamente con JavaScript, sin librerías ni dependencias.",
     image: "/projects/projects-js.webp",
-    link: "#",
+    link: "https://proyectos-js-teal.vercel.app/",
     github: "https://github.com/AdrianGerman/proyectos-js",
     tags: [TAGS.ASTRO, TAGS.JS]
   },
@@ -32,7 +32,7 @@ export default [
     description:
       "Roadmap de proyectos front-end, con un total de 24 proyectos, en esta web presenta la línea de proyectos que se elaboraron.",
     image: "/projects/frontend-roadmap.webp",
-    link: "#",
+    link: "https://frontend-projects-roadmap.vercel.app/",
     github: "https://github.com/AdrianGerman/frontend-projects-roadmap",
     tags: [TAGS.HTML, TAGS.CSS, TAGS.REACT]
   },
