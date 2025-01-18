@@ -10,7 +10,8 @@ export default {
         "blurred-fade-in": "blurred-fade-in 0.9s ease-in-out both",
         "fade-in-up": "fade-in-up 0.6s ease-in-out both",
         bouncing: "bouncing 1s ease-in-out both",
-        "fade-in-down": "fade-in-down 0.6s ease-in-out both"
+        "fade-in-down": "fade-in-down 0.6s ease-in-out both",
+        "pulse-fade-in": "pulse-fade-in 0.6s ease-out both"
       },
       keyframes: {
         "fade-in-up": {
@@ -29,6 +30,11 @@ export default {
         "fade-in-down": {
           "0%": { opacity: "0", transform: "translateY(-20px)" },
           "100%": { opacity: "1", transform: "translateY(0)" }
+        },
+        "pulse-fade-in": {
+          "0%": { transform: "scale(0.9)", opacity: "0" },
+          "50%": { transform: "scale(1.05)", opacity: "0.5" },
+          "100%": { transform: "scale(1)", opacity: "1" }
         }
       }
     }
