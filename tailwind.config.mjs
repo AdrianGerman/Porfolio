@@ -3,6 +3,9 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {
+      boxShadow: {
+        "image-shadow": "#581c87 7px 10px 17px 2px"
+      },
       animation: {
         "blurred-fade-in": "blurred-fade-in 0.9s ease-in-out both",
         "fade-in-up": "fade-in-up 0.6s ease-in-out both",
@@ -28,6 +31,11 @@ export default {
           "100%": { opacity: "1", transform: "translateY(0)" }
         }
       }
+    }
+  },
+  variants: {
+    extend: {
+      boxShadow: ["hover"]
     }
   },
   plugins: []
