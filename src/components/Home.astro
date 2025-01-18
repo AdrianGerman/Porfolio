@@ -59,17 +59,29 @@ import CV from "./icons/CV.astro"
 <script is:inline>
   window.addEventListener("DOMContentLoaded", () => {
     const image = document.getElementById("profileImage")
+    const defaultSrc =
+      "https://raw.githubusercontent.com/AdrianGerman/Portfolio/refs/heads/main/img/me-purple.png"
+    const secondSrc =
+      "https://pbs.twimg.com/profile_images/1776312145816227840/ISlE225__400x400.jpg"
+
+    const savedSrc = localStorage.getItem("profileImageSrc")
+
+    if (savedSrc) {
+      image.src = savedSrc
+    } else {
+      image.src = defaultSrc
+    }
 
     image.addEventListener("click", (event) => {
       const currentSrc = event.currentTarget.src
 
       if (currentSrc.includes("me-purple.png")) {
-        event.currentTarget.src =
-          "https://pbs.twimg.com/profile_images/1776312145816227840/ISlE225__400x400.jpg"
+        event.currentTarget.src = secondSrc
       } else {
-        event.currentTarget.src =
-          "https://raw.githubusercontent.com/AdrianGerman/Portfolio/refs/heads/main/img/me-purple.png"
+        event.currentTarget.src = defaultSrc
       }
+
+      localStorage.setItem("profileImageSrc", event.currentTarget.src)
     })
   })
 </script>
