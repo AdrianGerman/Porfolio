@@ -2,6 +2,15 @@ import { TAGS } from "./tags"
 
 export default [
   {
+    title: "Tailwind4 Animations - Animaciones con Tailwind CSS",
+    description:
+      "Colección de animaciones y transiciones creadas con Tailwind CSS, para su uso en proyectos web.",
+    image: "/projects/tailwind4-animations.webp",
+    link: "https://tailwind4-animations.vercel.app/",
+    github: "https://github.com/AdrianGerman/tailwind4-animations",
+    tags: [TAGS.ASTRO, TAGS.CSS, TAGS.TS]
+  },
+  {
     title: "Born - ElMariana Shop - Tienda online de productos exclusivos.",
     description:
       "Página web para la venta de mercancía exclusiva de la empresa, listo para la conexión a shopify para la gestión de los productos y el stock.",
@@ -9,15 +18,6 @@ export default [
     link: "https://elmariana-shop.vercel.app/",
     github: "https://github.com/AdrianGerman/elmariana-shop.git",
     tags: [TAGS.REACT, TAGS.CSS]
-  },
-  {
-    title: "Heim Components - Catálogo de componentes",
-    description:
-      "Catálogo de componentes creados desde 0 para la implementación en cualquier página web, creados únicamente con HTML y CSS además de la opción para tailwind css.",
-    image: "/projects/heim-components.webp",
-    link: "https://heim-components.vercel.app/",
-    github: "https://github.com/AdrianGerman/heim-components",
-    tags: [TAGS.HTML, TAGS.CSS, TAGS.JS]
   },
   {
     title: "Proyectos JS - Proyectos simples pero útiles",
