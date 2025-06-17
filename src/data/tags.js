@@ -1,6 +1,7 @@
 import ReactTag from "../components/icons/tags/ReactTag.astro"
 import TailwindTag from "../components/icons/tags/TailwindTag.astro"
 import JsTag from "../components/icons/tags/JsTag.astro"
+import TsTag from "../components/icons/tags/TsTag.astro"
 import HtmlTag from "../components/icons/tags/HtmlTag.astro"
 import CssTag from "../components/icons/tags/CssTag.astro"
 import AstroTag from "../components/icons/tags/AstroTag.astro"
@@ -25,6 +26,11 @@ export const TAGS = {
     name: "JavaScript",
     class: "bg-yellow-600 border border-yellow-900",
     icon: JsTag
+  },
+  TS: {
+    name: "TypeScript",
+    class: "bg-blue-800 border border-blue-900",
+    icon: TsTag
   },
   TAILWIND: {
     name: "TailwindCss",
